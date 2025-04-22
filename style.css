@@ -1,0 +1,25 @@
+body {
+  font-family: sans-serif;
+  background: linear-gradient(to right, #4facfe, #00f2fe);
+  color: white;
+  text-align: center;
+  padding: 50px;
+}
+
+.container {
+  background: rgba(0,0,0,0.2);
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  display: inline-block;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  background-color: white;
+  color: #333;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+}
