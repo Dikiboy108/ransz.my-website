@@ -3,7 +3,7 @@ const userInput = document.getElementById('user-input');
 const sendBtn = document.getElementById('send-btn');
 
 async function askGPT(prompt) {
-  const apiKey = 'YOUR_OPENAI_API_KEY'; // Ganti dengan API key Anda
+  const apiKey = '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'; // Ganti dengan API key Anda
 
   const response = await fetch('https://api.openai.com/v1/chat/completions', {
     method: 'POST',
